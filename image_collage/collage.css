@@ -1,0 +1,34 @@
+.row img{
+    width: 100%;
+    height: 100%;
+}
+
+.row{
+    height: 25rem;
+    display: flex ;
+    flex: 1;
+    margin-bottom: 0.3125rem;
+    gap: 5px;
+}
+
+.vertical_collapse {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 5px;
+
+}
+.vertical_collapse img{
+   height: 50%;
+   width: 100%;
+   flex: 1;
+
+}
+
+.square_collase{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 25%;
+    flex: 1;
+    gap: 5px;
+}
